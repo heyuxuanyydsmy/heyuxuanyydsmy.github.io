@@ -1,1 +1,25 @@
-<script src="index.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>我的主页</title>
+</head>
+<body>
+    <script>
+        // 这里直接写 JavaScript，不需要外部 index.js 了
+        let ha = "Go to heyuxuanyydsmy.github.io/game1 and have fun";
+        
+        // 显示在网页上
+        document.body.innerHTML = `
+            <div style="text-align:center; margin-top:50px; font-family:Arial;">
+                <h1>🎮 欢迎</h1>
+                <p style="font-size:24px;">${ha}</p>
+                <p style="color:green;">✅ 这是内联 JS 显示的内容</p>
+            </div>
+        `;
+        
+        // 显示在控制台（按 F12 看）
+        console.log(ha);
+    </script>
+</body>
+</html>
